@@ -3,7 +3,7 @@
 
 A simple and fast repository for training and fine-tuning medium-sized GPT models. Through the train.py file, this is capable of reproducing GPT-2 (124M) on OpenWebText using a single 8XA100 40GB node, with training taking about 4 days. The code is straightforward and easy to understand, with train.py being a acting as 300-line boilerplate training loop and model.py acting as a 300-line definition of the GPT model that can optionally load the GPT-2 weights from OpenAI.
 
-![repro124m](assets/gpt2_124M_loss.png)
+<img width="603" alt="gpt2_124M_loss" src="https://user-images.githubusercontent.com/122713100/217517691-acb3c1a5-2ae6-4fca-8e94-acfae32ad1bd.png">
 
 The code's simplicity makes it versatile for a number of use cases:
 
